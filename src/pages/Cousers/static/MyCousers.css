@@ -1,0 +1,166 @@
+.container{
+    max-width: 100%;
+}
+.container .carousel{
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    height: 420px;
+}
+
+.container .carousel .item{
+    background-color: white;
+    margin: 40px;
+    padding: 10px;
+    width: 280px;
+    border-radius: 2px;
+  
+    flex: none;
+    box-shadow: 1px 1px 18px ;
+
+}
+
+.container .carousel .item .image img{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.container .carousel .item .info{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    height: 5px;
+    
+}
+
+.container .carousel .item .info span{
+    display: block;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+.logo h1{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+.container .carousel .item .info .name{
+    font-size: 1.2rem;
+    font-weight:bold ;
+    margin: 10px 0;
+    
+}
+.container .carousel .item .info .desc{
+    font-size: 1rem;
+    flex-grow: 1;
+    color: black;
+}
+
+.container .carousel .item .info .tempo{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 140px;
+    background-color: rgb(240, 9, 9);
+}
+
+.container .buttons button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+
+.container .buttons{
+    width: 100%;
+    text-align: end;
+}
+
+
+@media screen and (max-width: 767px) {
+    .container{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .container .carousel{
+        display: flex;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+        height: 340px;
+    }
+    
+    .container .carousel .item{
+        background-color: white;
+        margin: 40px;
+        padding: 10px;
+        width: 150px;
+        border-radius: 2px;
+      
+        flex: none;
+        box-shadow: 1px 1px 18px ;
+    }
+    
+    .container .carousel .item .image img{
+        width: 130px;
+        height: 110px;
+        object-fit: cover;
+    }
+    
+    .container .carousel .item .info{
+        display: flex;
+        flex-direction: column;
+    
+        justify-content: space-between;
+        height: 5px;
+        
+    }
+    
+    .container .carousel .item .info span{
+        display: block;
+        color: black;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .logo h1{
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 10px;
+    }
+    .container .carousel .item .info .name{
+        font-size: 12px;
+        font-weight:bold ;
+        margin: 10px 0;
+        
+    }
+    .container .carousel .item .info .oldPrice{
+        font-size: 12px;
+        flex-grow: 1;
+        color: black;
+    }
+    
+    .container .carousel .item .info .price{
+        margin-top: 10px;
+        font-size: 9px !important;
+    }
+    
+    .container .buttons button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    
+    }
+    
+    .container .buttons{
+        width: 100%;
+        text-align: end;
+    }
+    
+        
+}

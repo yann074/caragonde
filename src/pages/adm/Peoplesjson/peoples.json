@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Emanuel Lima",
+        "cursos": "Informatica",
+       "tell": "291931391",
+        "email": "emanuel@gmail.com",
+        "cpf": "94294131931"
+    },
+    {
+        "name": "Yann Smith",
+        "cursos": "Informática",
+       "tell": "757283823423",
+        "email": "yannsmith@gmail.com",
+        "cpf": "01202138945"
+    }
+]
